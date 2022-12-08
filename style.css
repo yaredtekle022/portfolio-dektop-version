@@ -288,16 +288,15 @@
     color: #8993a4;
     background-color: powderblue;
   }
-.aboutimage {
-  position: absolute;
-  right: 0;
-  top: 5100px;
-}
+  .aboutimage {
+    position: absolute;
+    right: 0;
+    top: 5100px;
+  }
   .about {
     background-repeat: no-repeat;
     background-position: 100% 30%;
     background-color: black;
-    
   }
 
   .heading-about {
@@ -342,7 +341,7 @@
     flex-direction: row;
     align-items: center;
     padding: 20px;
-    
+
     gap: 10px;
     text-decoration: none;
     color: #fff;
@@ -513,7 +512,6 @@
     padding-top: 25px;
     padding-bottom: 26px;
   }
-
 
   .social-item-media {
     color: #505f79;
@@ -938,7 +936,7 @@
     background-position: 100% 15%;
     background-color: #262626;
     background-size: 672px 352px;
-    position: absolute;    
+    position: absolute;
   }
 
   .heading-about {
@@ -1054,7 +1052,6 @@
     margin-top: 130px;
     margin-left: 40px;
     width: 48%;
-    
   }
 
   form > h4 {
