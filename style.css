@@ -288,11 +288,13 @@
     color: #8993a4;
     background-color: powderblue;
   }
+
   .aboutimage {
     position: absolute;
     right: 0;
     top: 5100px;
   }
+
   .about {
     background-repeat: no-repeat;
     background-position: 100% 30%;
@@ -341,7 +343,6 @@
     flex-direction: row;
     align-items: center;
     padding: 20px;
-
     gap: 10px;
     text-decoration: none;
     color: #fff;
@@ -434,6 +435,7 @@
     margin-right: 24px;
     margin-bottom: 200px;
   }
+
   form {
     display: flex;
     flex-direction: column;
@@ -450,7 +452,6 @@
     height: 216px;
     width: 327px;
     text-align: center;
-    margin-left: 24px;
     margin-left: 24px;
   }
 
