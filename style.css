@@ -288,14 +288,16 @@
     color: #8993a4;
     background-color: powderblue;
   }
-
+.aboutimage {
+  position: absolute;
+  right: 0;
+  top: 5100px;
+}
   .about {
-    background-image: url("images/background-for-about.svg");
     background-repeat: no-repeat;
     background-position: 100% 30%;
     background-color: black;
-    margin-top: 120px;
-    padding-bottom: 130px;
+    
   }
 
   .heading-about {
@@ -340,12 +342,12 @@
     flex-direction: row;
     align-items: center;
     padding: 20px;
-    padding-left: 35px;
+    
     gap: 10px;
     text-decoration: none;
     color: #fff;
     margin-left: 24px;
-    margin-right: 190px;
+    margin-right: 31px;
     margin-bottom: 209px;
   }
 
@@ -433,19 +435,24 @@
     margin-right: 24px;
     margin-bottom: 200px;
   }
+  form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 130px;
+    background: #fff;
+  }
 
-  h4 {
+  form > h4 {
     font-family: "Inter", sans-serif;
     font-size: 32px;
     font-weight: 700;
     line-height: 44px;
-    text-align: center;
-    width: 327px;
-    height: 216px;
-    margin-left: 24px;
-    margin-right: 24px;
-    margin-top: 120px;
     color: #172b4d;
+    height: 216px;
+    width: 327px;
+    text-align: center;
+    margin-left: 24px;
+    margin-left: 24px;
   }
 
   #fname,
@@ -506,6 +513,7 @@
     padding-top: 25px;
     padding-bottom: 26px;
   }
+
 
   .social-item-media {
     color: #505f79;
@@ -583,7 +591,7 @@
     background-color: #1c1a19;
     display: flex;
     max-width: 100%;
-    background-image: url("images/Illustration-header.svg");
+    background-image: url("images/Img_Placeholder.png");
     background-repeat: no-repeat;
     background-position: right;
     background-attachment: local;
@@ -920,12 +928,17 @@
     display: none;
   }
 
+  .aboutimage {
+    display: none;
+  }
+
   .about {
     background-image: url("images/aboutmebackgrounddesk.svg");
     background-repeat: no-repeat;
     background-position: 100% 15%;
     background-color: #262626;
     background-size: 672px 352px;
+    position: absolute;    
   }
 
   .heading-about {
@@ -1041,6 +1054,7 @@
     margin-top: 130px;
     margin-left: 40px;
     width: 48%;
+    
   }
 
   form > h4 {
