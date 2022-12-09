@@ -59,6 +59,7 @@
     letter-spacing: 0.37px;
     color: #ff6b00;
     padding-top: 120px;
+    
   }
 
   .my-job {
@@ -73,7 +74,6 @@
     color: #fff5e1;
     margin: 0 24px 24px;
   }
-
   .intro {
     width: 327px;
     height: 123px;
@@ -556,6 +556,12 @@
     padding-bottom: 26px;
   }
 
+  a:hover,
+  a:focus {
+  background-color: #fff;
+  color: red;
+}
+
   .material-icons {
     text-decoration: none;
     text-align: center;
@@ -579,7 +585,7 @@
     padding-top: 26px;
     padding-bottom: 26px;
   }
-
+  
   .navi-menu {
     display: flex;
     margin-right: 10.4861%;
