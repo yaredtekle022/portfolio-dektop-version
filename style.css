@@ -72,6 +72,16 @@
     align-items: center;
     color: #fff5e1;
     margin: 0 24px 24px;
+    animation-name: mobile-title;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes mobile-title {
+    50% {
+      font-size: 20px;
+    }
   }
 
   .intro {
@@ -554,6 +564,12 @@
     text-align: center;
     padding-top: 26px;
     padding-bottom: 26px;
+  }
+
+  a:hover,
+  a:focus {
+    background-color: #fff;
+    color: red;
   }
 
   .material-icons {
