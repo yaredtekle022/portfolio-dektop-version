@@ -73,6 +73,16 @@
     align-items: center;
     color: #fff5e1;
     margin: 0 24px 24px;
+    animation-name: mobile-title;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes mobile-title {
+    50% {
+      font-size: 20px;
+    }
   }
   .intro {
     width: 327px;
